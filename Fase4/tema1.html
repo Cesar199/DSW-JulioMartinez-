@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="EstilosCSS/estilos.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="img/boxHTML.PNG" alt="" width="200" height="100">
+        <h1>HTML5: Etiquetas Semanticas, listas y enlaces</h1>
+        <img src="img/boxHTML.PNG" alt="" width="200" height="100">
+    </header>
+
+    <div class="container-fluid navbar navbar-dark" style="background-color: #004669; ">
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Temas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="tema1.html">Tema 1</a></li>
+                            <li><a class="dropdown-item" href="tema2.html">Tema 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Recursos Digitales
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="recurso1.html">Recurso 1</a></li>
+                            <li><a class="dropdown-item" href="recurso2.html">Recurso 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Aprendizaje
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="actividad1.html">Actividad 1</a></li>
+                            <li><a class="dropdown-item" href="actividad2.html">Actividad 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="autor.html">Autor</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <aside class="col-sm-4">
+                <h4>Fan page</h4>
+                <iframe
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                    width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </aside>
+            <aside class="col-sm-8">
+                <h2>Etiquetas semánticas</h2>
+                <p>Las etiquetas semánticas sirven para definir la estructura de un sitio web, estas mejoran la creación de una página web y ayudan a que nuestra página web, sea indexada con una exactitud mayor por los motores de búsqueda. z</p>
+                <hr>
+                <h2>¿Qué son?</h2>
+                <p>Semántica: Según la definición de la real academia de la legua española, hace referencia a la pertenencia o relativo a las palabras, esto es, el <strong>HTML5,</strong> las que dan significado a las partes del documento, indican que es el contenido que contienen.
+                Existe un conjunto de etiquetas semánticas fundamental para la maquetación de páginas, estas son las que nos ayudan a definir el esquema principal de una página web, <strong>HEADER, NAV, SECTION, FOODER, ASIDE,</strong> entre otras que nos indican que es el contenido de nuestra página web y su relación con el conjunto de elementos de HTML.</p>
+                <p>Para que un motor de búsqueda sepa que partes de del contenido de un sitio web corresponden a cada una de las partes, es necesario hacer uso de las etiquetas semánticas estructuradas, por lo general un sitio web está estructurado por una cabecera, un cuerpo y un pie de página.</p> <hr>
+                <p><strong>En HTML5, podemos encontrar las siguientes etiquetas semánticas estructuradas:</strong></p>
+                <img src="img/semantica.PNG" alt="">
+                <p><strong>HEADER:</strong>Engloba los elementos correspondientes a la cabecera de la página.</p>
+                <p><strong>FOOTER:</strong>Engloba todos los elementos correspondientes al pie de página.</p>
+                <p><strong>SECTION, ARTICLE, ASIDE:</strong>Engloban los elementos que corresponden al cuerpo de la página. </p>
+                <p><strong>NAV:</strong>Esta etiqueta representa los elementos correspondientes a una barra de navegación.</p>
+            </aside>
+            <hr>
+        </div>
+    </div>
+
+    <footer>
+        <p>Correo electronico: jcmartinezto@unadvirtual.edu.co <br>
+            Skype: cesar.torres372 <br>
+            Fecha de actualizacion: junio 21 de 2021
+        </p>
+
+    </footer>
+
+</body>
+
+
+</html>
